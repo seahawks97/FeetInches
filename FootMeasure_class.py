@@ -141,7 +141,7 @@ class FootMeasure:
         if f1 > f2:
             return True
         elif f1 == f2:
-            if self.getInches() > other.getInches():
+            if self.getInches() >= other.getInches():
                 return True
             else:
                 return False
